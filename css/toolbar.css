@@ -1,0 +1,55 @@
+.cook-e {
+	border-top: 1px solid rgb(245, 245, 245);
+	border-bottom: 1px solid rgb(122, 122, 122);
+	background-image: url(./grad.png);
+	height: 33px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.cook-e div {
+	padding-right: 9px;
+}
+
+.cook-e p {
+	margin: 0;
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 13px;
+	padding: 7px 0px 0px 15px;
+}
+
+.cook-e button, .cook-e .cancel {
+	float: right;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-top: 6px;
+	padding: 3px;
+	text-decoration: none;
+	color: black;
+}
+
+.cook-e .cancel {
+	border-radius: 7px;
+	width: 7px;
+	height: 7px;
+	display: block;
+	margin-top: 9px;
+	color: rgb(184, 184, 184);
+}
+
+.cook-e .cancel span {
+	margin-top: -5px;
+	display: block;
+	font-weight: bold;
+	margin-left: -1px;
+	font-size: 15px;
+	
+}
+
+.cook-e .cancel:hover {
+	background: rgb(161, 161, 161);
+	color: white;
+	
+}

@@ -1,6 +1,15 @@
-<?php require_once('cooke.php'); ?><!DOCTYPE html>
+<?php require_once('cooke.php'); 
+
+// Start a session 
+
+session_start();
+
+$_SESSION['test'] = 'Please forget me unless the user clicks OK';
+
+?><!DOCTYPE html>
 <html>
 <head>
+	
 	<title>This is an example</title>
 </head>
 <body>
