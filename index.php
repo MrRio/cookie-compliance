@@ -1,4 +1,4 @@
-<?php require_once('cooke.php'); 
+<?php require_once('cookie-compliance.php'); 
 
 // Start a session 
 
