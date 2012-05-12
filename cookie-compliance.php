@@ -16,9 +16,8 @@ class CookieCompliance {
 		
 		// @TODO: Remove 3rd party cookies
 		
-		
-		
-		
+
+		header_remove('cookie');
 		
 		return $buffer;
 	}
