@@ -1,6 +1,10 @@
 <?php
 
-class Cooke {
+/**
+ *  EU Cookie Compliance for PHP
+ **/
+
+class CookieCompliance {
 	
 	
 	
@@ -21,4 +25,4 @@ class Cooke {
 }
 
 
-ob_start(array('Cooke', 'init'));
+ob_start(array('CookieCompliance', 'init'));
