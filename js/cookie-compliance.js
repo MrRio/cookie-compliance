@@ -5,7 +5,7 @@ Event.domReady.add(function() {
 		'<div class="cookie-compliance">' +
 			'<div>' + 
 				'<a href="http://labs.snapshotmedia.co.uk/" class="cancel"><span>&#215;</span></a>' +
-				'<button>Yes</button>' + 
+				'<button>OK</button>' + 
 				'<button>No thanks</button>' +
 				'<p class="cook-e-site">' +
 					'<span class="cookie-compliance-hostname">' + window.location.hostname + '</span>' +
