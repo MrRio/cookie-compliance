@@ -41,6 +41,13 @@
 	color: black;
 }
 
+
+.cookie-compliance button {
+	font-size: 16px;
+	-webkit-appearance: push-button;
+}
+
+
 .cookie-compliance .cancel {
 	border-radius: 7px;
 	width: 7px;
